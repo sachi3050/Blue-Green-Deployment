@@ -2,7 +2,7 @@
 FROM eclipse-temurin:17-jdk-alpine
 
 # Expose app port
-EXPOSE 8081
+EXPOSE 8085
 
 # Set environment variable for application home
 ENV APP_HOME=/usr/src/app
