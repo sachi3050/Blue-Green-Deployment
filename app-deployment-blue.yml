@@ -18,7 +18,7 @@ spec:
       - name: bankapp
         image: sachidananda06/bankapp:blue # Adjust the image tag for the blue version
         ports:
-        - containerPort: 8080
+        - containerPort: 8085
         env:
         - name: SPRING_DATASOURCE_URL
           value: jdbc:mysql://mysql-service:3306/bankappdb?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
